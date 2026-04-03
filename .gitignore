@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+logs/
+state/
+sources/
+html/
+reports/
+latest.html
+latest.md
+android_app/.gradle/
+android_app/local.properties
+android_app/app/build/
+android_app/build/
+site_dist/
+site_dist_test/

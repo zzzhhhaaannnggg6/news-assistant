@@ -1,0 +1,17 @@
+{
+  "name": "新闻助手 Mobile",
+  "short_name": "新闻助手",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4efe8",
+  "theme_color": "#d96c3f",
+  "description": "适合安卓与鸿蒙 4 的移动端每日新闻阅读版。",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
