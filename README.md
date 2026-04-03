@@ -1,6 +1,34 @@
-# Local Daily News Assistant
+# News Assistant
 
-This setup runs a daily deep-dive news digest locally with `codex --search exec`.
+一个可跨网络使用的每日新闻助手。
+
+## 下载与使用
+
+- APK 下载：
+  [news-assistant-debug.apk](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/download/v0.1.0/news-assistant-debug.apk)
+- Release 页面：
+  [v0.1.0](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/tag/v0.1.0)
+- 手机网页版：
+  [https://zzzhhhaaannnggg6.github.io/news-assistant/](https://zzzhhhaaannnggg6.github.io/news-assistant/)
+
+## 给普通用户的最短说明
+
+1. 如果你想安装 App，直接下载上面的 APK 到安卓手机并安装。
+2. 如果你暂时不想安装，直接打开上面的手机网页版即可。
+3. 电脑端仍然保留本地 `08:00` 自动弹出 HTML 简报的机制，和手机端是分开的。
+
+## 这是什么
+
+- 每天生成一份中文深度新闻简报
+- 重点覆盖：国际形势、游戏、商业洞见、数码圈、计算机 / 信息安全
+- 手机端可以跨 Wi‑Fi 使用
+- 电脑端继续走本地 HTML 推送，不依赖手机端
+
+## 当前版本说明
+
+- 当前 Release 里的 APK 为可安装测试版
+- 如果手机拦截安装，请在系统里允许“安装未知应用”
+- 手机网页版和 APK 读取的是同一套日报数据
 
 ## What it does
 
