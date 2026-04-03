@@ -174,6 +174,14 @@ if [ -f "${BASE_DIR}/sync_android_assets.py" ]; then
   log_line "synced android asset bundle"
 fi
 
+if [ -f "${STATE_DIR}/github_sync_config.json" ]; then
+  if "${PYTHON_BIN}" "${BASE_DIR}/sync_github_mobile_data.py" --message "Update mobile digest data for ${RUN_DATE}"; then
+    log_line "synced mobile digest to github"
+  else
+    log_line "failed to sync mobile digest to github"
+  fi
+fi
+
 should_open=0
 if [ "${MODE}" = "--now" ]; then
   should_open=1

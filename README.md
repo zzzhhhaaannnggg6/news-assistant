@@ -12,6 +12,7 @@ This setup runs a daily deep-dive news digest locally with `codex --search exec`
 - Interprets `CS` as `computer science / information security`, not Counter-Strike
 - If generation times out or fails, it now opens a status page instead of failing silently
 - Stores reports locally and keeps `latest.md` and `latest.html` copies
+- If GitHub sync is configured, mobile digest data can be published for cross-network access without affecting the desktop workflow
 
 ## Files
 
