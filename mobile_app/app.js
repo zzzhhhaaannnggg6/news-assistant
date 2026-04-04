@@ -148,35 +148,47 @@
   }
 
   async function fetchRemoteDigest() {
-    const url = String(config.remoteDigestJsonUrl || "").trim();
-    if (!url) {
+    const candidates = Array.isArray(config.remoteDigestJsonUrls)
+      ? config.remoteDigestJsonUrls
+      : [config.remoteDigestJsonUrl];
+    const urls = candidates
+      .map((value) => String(value || "").trim())
+      .filter(Boolean);
+    if (urls.length === 0) {
       return null;
     }
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 5000);
-    try {
-      const response = await fetch(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`, {
-        cache: "no-store",
-        signal: controller.signal
-      });
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
+    for (const url of urls) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 5000);
+      try {
+        const response = await fetch(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`, {
+          cache: "no-store",
+          signal: controller.signal
+        });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        const digest = await response.json();
+        return { digest, sourceUrl: url };
+      } catch (_error) {
+      } finally {
+        clearTimeout(timer);
       }
-      return await response.json();
-    } finally {
-      clearTimeout(timer);
     }
+    throw new Error("all remote digest urls failed");
   }
 
   async function init() {
     let digest = null;
     let sourceLabel = "内置离线内容";
     try {
-      digest = await fetchRemoteDigest();
-      if (digest) {
+      const remote = await fetchRemoteDigest();
+      if (remote && remote.digest) {
+        digest = remote.digest;
         sourceLabel = "远程同步内容";
       }
     } catch (_error) {
+      sourceLabel = "内置离线内容（远程同步失败）";
     }
     if (!digest) {
       digest = window.__DIGEST__;

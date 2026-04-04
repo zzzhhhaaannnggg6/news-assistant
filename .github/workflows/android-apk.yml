@@ -33,17 +33,13 @@ jobs:
         run: |
           OWNER="${GITHUB_REPOSITORY_OWNER}"
           REPO="${GITHUB_REPOSITORY#*/}"
-          if [ "${REPO}" = "${OWNER}.github.io" ]; then
-            SITE_URL="https://${OWNER}.github.io/latest.json"
-          else
-            SITE_URL="https://${OWNER}.github.io/${REPO}/latest.json"
-          fi
-          echo "site_url=${SITE_URL}" >> "${GITHUB_OUTPUT}"
+          RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/main/mobile_app/data/latest.json"
+          echo "raw_url=${RAW_URL}" >> "${GITHUB_OUTPUT}"
 
       - name: Sync Android assets
         run: |
           python3 sync_android_assets.py \
-            --remote-json-url "${{ steps.meta.outputs.site_url }}"
+            --remote-json-url "${{ steps.meta.outputs.raw_url }}"
         working-directory: .
 
       - name: Build debug APK

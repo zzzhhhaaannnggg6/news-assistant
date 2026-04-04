@@ -23,9 +23,11 @@ INCLUDE = [
 
 
 def write_config(target: Path, remote_url: str) -> None:
+    urls = [remote_url] if remote_url else []
     target.write_text(
         "window.__MOBILE_CONFIG__ = {\n"
         f"  remoteDigestJsonUrl: {remote_url!r},\n"
+        f"  remoteDigestJsonUrls: {urls!r},\n"
         "  appMode: \"android\"\n"
         "};\n"
     )
