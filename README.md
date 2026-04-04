@@ -4,16 +4,18 @@
 
 ## 下载与使用
 
-- APK 下载：
-  [news-assistant-debug.apk](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/download/v0.1.0/news-assistant-debug.apk)
-- Release 页面：
-  [v0.1.0](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/tag/v0.1.0)
+- 最新 APK 直接下载：
+  [news-assistant-latest.apk](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/download/mobile-latest/news-assistant-latest.apk)
+- 最新版本页面：
+  [Latest Release](https://github.com/zzzhhhaaannnggg6/news-assistant/releases/tag/mobile-latest)
+- 所有版本：
+  [Releases](https://github.com/zzzhhhaaannnggg6/news-assistant/releases)
 - 手机网页版：
   [https://zzzhhhaaannnggg6.github.io/news-assistant/](https://zzzhhhaaannnggg6.github.io/news-assistant/)
 
 ## 给普通用户的最短说明
 
-1. 如果你想安装 App，直接下载上面的 APK 到安卓手机并安装。
+1. 如果你想安装 App，直接下载上面的“最新 APK”到安卓手机并安装。
 2. 如果你暂时不想安装，直接打开上面的手机网页版即可。
 3. 电脑端仍然保留本地 `08:00` 自动弹出 HTML 简报的机制，和手机端是分开的。
 
@@ -26,7 +28,8 @@
 
 ## 当前版本说明
 
-- 当前 Release 里的 APK 为可安装测试版
+- `mobile-latest` 会始终指向当前可下载的最新 APK
+- GitHub 首页里的下载链接会固定跳到最新安装包
 - 如果手机拦截安装，请在系统里允许“安装未知应用”
 - 手机网页版和 APK 读取的是同一套日报数据
 

@@ -45,14 +45,37 @@ jobs:
       - name: Build debug APK
         run: gradle -p android_app assembleDebug
 
+      - name: Prepare APK asset
+        run: |
+          mkdir -p release_assets
+          cp android_app/app/build/outputs/apk/debug/app-debug.apk release_assets/news-assistant-latest.apk
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: news-assistant-debug-apk
-          path: android_app/app/build/outputs/apk/debug/*.apk
+          path: release_assets/news-assistant-latest.apk
+
+      - name: Publish rolling latest release
+        if: github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: mobile-latest
+          name: Latest APK
+          body: |
+            这个 release 始终保存当前最新的 APK。
+
+            手机网页版：
+            https://zzzhhhaaannnggg6.github.io/news-assistant/
+
+            所有历史版本：
+            https://github.com/zzzhhhaaannnggg6/news-assistant/releases
+          files: release_assets/news-assistant-latest.apk
+          prerelease: false
+          draft: false
 
       - name: Attach APK to release
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
-          files: android_app/app/build/outputs/apk/debug/*.apk
+          files: release_assets/news-assistant-latest.apk
