@@ -1,57 +1,106 @@
 window.__DIGEST__ = {
   "title": "2026-04-04 深度新闻简报",
-  "greeting": "喵，今天的自动推送已经触发，但生成过程出了问题，我先把状态告诉你。",
-  "overview": "2026-04-04 这次任务已经触发，但生成阶段没有在规定时间内完成，因此我先给你状态页而不是空白。",
-  "top3": [],
+  "greeting": "早安喵，今天先看地缘、药品关税和安全补丁这三条硬线索。",
+  "overview": "过去 24 小时里，最值得看的信号主要有三条：一是中国围绕伊朗战争和霍尔木兹海峡问题明显加大外交表述力度，但外界对其实际调停能力仍持保留态度；二是特朗普政府把药品关税推到更实质阶段，说明贸易工具正在进一步进入医疗和国家安全叙事；三是信息安全侧没有爆出单一“事故级”大新闻，但 AWS 的高危 SDK 漏洞和 GitHub 安全治理入口调整都很值得技术从业者重视。",
+  "top3": [
+    "中国围绕伊朗战争提出五点方案并反对以武力方式打开霍尔木兹海峡，说明其正在把中东危机当作展示外交存在感和全球治理姿态的窗口。",
+    "特朗普政府宣布对部分专利药设置最高 100% 关税路径，这意味着贸易与产业安全工具已进一步深入到制药链条。",
+    "AWS 披露 `aws-c-event-stream` 高危缺陷 CVE-2026-5190，影响多套 SDK 与 IoT 客户端，这类“深层基础库”问题对开发者和安全团队都更具现实意义。"
+  ],
   "sections": [
     {
       "title": "今日总览",
       "stories": [],
       "notes": [
-        "2026-04-04 这次任务已经触发，但生成阶段没有在规定时间内完成，因此我先给你状态页而不是空白。"
+        "过去 24 小时里，最值得看的信号主要有三条：一是中国围绕伊朗战争和霍尔木兹海峡问题明显加大外交表述力度，但外界对其实际调停能力仍持保留态度；二是特朗普政府把药品关税推到更实质阶段，说明贸易工具正在进一步进入医疗和国家安全叙事；三是信息安全侧没有爆出单一“事故级”大新闻，但 AWS 的高危 SDK 漏洞和 GitHub 安全治理入口调整都很值得技术从业者重视。"
       ]
     },
     {
-      "title": "生成状态",
+      "title": "今日 Top 3",
+      "stories": [],
+      "notes": []
+    },
+    {
+      "title": "国际形势",
       "stories": [
         {
-          "title": "自动生成超时或失败",
+          "title": "中国围绕伊朗战争加大外交投入，但“存在感”与“可执行调停”仍是两回事",
           "items": [
             {
               "label": "一句话判断",
-              "text": "这次不是“没触发”，而是日报生成流程没有在可接受时间内完成。"
+              "text": "中国这次明显在争取外交叙事空间，但从公开信息看，当前更像强化立场表达，而不是已经形成可执行的停火框架。"
             },
             {
               "label": "发生了什么",
-              "text": "自动任务今天已经启动，但生成阶段超时或异常退出，因此没有形成新的完整日报。"
+              "text": "中国与巴基斯坦围绕伊朗战争提出五点方案，并反对联合国以“必要武力”方式确保霍尔木兹海峡通航；美方则对中方调停努力兴趣有限。"
             },
             {
               "label": "背景",
-              "text": "当前这套日报依赖 `codex --search exec` 做联网收束；如果搜索侧反复重连，进程就可能长时间卡住。"
+              "text": "中东冲突外溢到能源航道后，任何大国表态都不只是地区问题，也会被解读为对全球治理、能源安全和大国角色分工的再表述。"
             },
             {
               "label": "为什么重要",
-              "text": "如果不做超时与兜底，结果就是你像今天 2026 年 4 月 3 日中午醒来时一样，什么都收不到。"
+              "text": "如果霍尔木兹议题继续升级，真正受影响的不只是中东，而是全球油价、航运成本和亚洲进口经济体的风险预期。"
             },
             {
               "label": "关键事实",
-              "text": "本次任务的硬超时已设置为 480 秒。；超时或失败时，系统现在会改为推送状态页，而不是静默卡住。；Chrome 自动打开逻辑仍会执行，因此至少会有一个明确结果页弹出。"
+              "text": "王毅本周与多国外长通话并推动五点方案。；美联社报道提到中方反对允许以武力方式打开霍尔木兹海峡的联合国提案。；报道同时提到中国仅约 13% 的石油进口依赖伊朗。；美方官员对中方调停努力的公开口径偏冷淡。"
             },
             {
               "label": "接下来观察",
-              "text": "我已经把执行链改成“超时即收口”；下一次定时或补推会按新逻辑运行。"
+              "text": "未来 24 到 72 小时要看联合国相关提案是否被继续修改、海峡通行安排是否出现新表述，以及中美是否在中东议题上出现更直接的外交碰撞。"
             },
             {
               "label": "来源",
-              "text": "[运行日志](file:///Users/li/.codex/news_assistant/logs/runner.log) [错误输出](file:///Users/li/.codex/news_assistant/logs/launchd.stderr.log)",
+              "text": "[美联社](https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c)",
               "links": [
                 {
-                  "label": "运行日志",
-                  "url": "file:///Users/li/.codex/news_assistant/logs/runner.log"
+                  "label": "美联社",
+                  "url": "https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "台海安全讨论的现实焦点仍是预算执行，而不只是口号表态",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "对台海议题而言，今天仍值得延续关注的是预算、交付与训练能否跟上，而不是抽象强硬表态。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "台湾军方此前已公开警告，预算延宕正在影响武器采购、维护和训练节奏；这一问题在当前区域安全紧张背景下仍有持续性。"
+            },
+            {
+              "label": "背景",
+              "text": "台海风险讨论很容易被政治语言放大，但军费能否落实、交付能否准时、训练是否不断档，才是决定实际防务能力的硬指标。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "如果预算与执行长期脱节，外界看到的将不是“防务承诺”，而是非对称战力建设的可兑现性下降。"
+            },
+            {
+              "label": "关键事实",
+              "text": "此前公开受影响金额约为新台币 780 亿元。；被点名受影响项目包括 HIMARS、Javelin 与相关维护补给。；2026 年台湾防务支出目标约为新台币 9495 亿元。；相关争论并未在过去 24 小时内出现明确缓解信号。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "重点看预算协商是否在未来数日有实质进展，以及军方是否继续公开点名更多延误项目。"
+            },
+            {
+              "label": "来源",
+              "text": "[台北时报（转引路透）](https://www.taipeitimes.com/News/taiwan/archives/2026/04/03/2003854950) [Taiwan News](https://www.taiwannews.com.tw/en/news/6333464)",
+              "links": [
+                {
+                  "label": "台北时报（转引路透）",
+                  "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/04/03/2003854950"
                 },
                 {
-                  "label": "错误输出",
-                  "url": "file:///Users/li/.codex/news_assistant/logs/launchd.stderr.log"
+                  "label": "Taiwan News",
+                  "url": "https://www.taiwannews.com.tw/en/news/6333464"
                 }
               ]
             }
@@ -62,19 +111,334 @@ window.__DIGEST__ = {
       "notes": []
     },
     {
-      "title": "可打开的上一份简报",
+      "title": "游戏",
+      "stories": [
+        {
+          "title": "Valorant：VCT China 与 EMEA 首周结果仍是当前最有信息量的赛区样本",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "过去 24 小时里，游戏板块依然是 Valorant 的区域赛结果最具参考价值，其他子项缺少足够硬的新信号。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "VCT China 和 VCT EMEA 在 Stage 1 首周持续推进，前一日的赛果已经开始塑造赛区内强弱预期与后续对阵压力。"
+            },
+            {
+              "label": "背景",
+              "text": "Stage 1 是通往 Masters London 的关键区间，首周 Bo3 样本比短期热度更值得看。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这个阶段的价值在于尽快看出哪些队伍已经完成版本与阵容适配，哪些队伍会被拖进保分和追分节奏。"
+            },
+            {
+              "label": "关键事实",
+              "text": "JDG 以 2 比 1 击败 FPX。；XLG 以 2 比 0 击败 DRG。；FNATIC 以 2 比 1 击败 Eternal Fire。；Team Liquid 以 2 比 0 击败 Karmine Corp。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "继续看 4 月 4 日到 4 月 6 日各赛区首周后续比赛，尤其是强队能否把首轮状态延续成稳定连胜。"
+            },
+            {
+              "label": "来源",
+              "text": "[VALORANT Esports](https://valorantesports.com/en-GB/leagues/vct_china%2Cvct_pacific%2Cvrl_northern_europe%2Cvct_emea) [VLR](https://www.vlr.gg/matches)",
+              "links": [
+                {
+                  "label": "VALORANT Esports",
+                  "url": "https://valorantesports.com/en-GB/leagues/vct_china%2Cvct_pacific%2Cvrl_northern_europe%2Cvct_emea"
+                },
+                {
+                  "label": "VLR",
+                  "url": "https://www.vlr.gg/matches"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "League of Legends esports：No high-value update today.",
+            "Honkai: Star Rail：No high-value update today."
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "title": "商业洞见",
+      "stories": [
+        {
+          "title": "美国把药品关税推进到更实质阶段，制药链条正式进入更高摩擦区间",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这不是一般的贸易喊话，而是制药、定价和产业安全三条线开始被更明确地绑在一起。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "特朗普签署行政命令，为未与政府达成协议的部分专利药设置最高 100% 关税路径；部分在美建厂且签署价格协议的企业可获得更低税率或零税率。"
+            },
+            {
+              "label": "背景",
+              "text": "过去一年美国已多次用关税威胁换取企业价格与本土投资承诺，这次则把逻辑进一步推向药品和原料药链条。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "药品一旦被更深地纳入关税与国家安全框架，全球制药定价、供应链布局和跨国药企在美投资节奏都会受到再定价。"
+            },
+            {
+              "label": "关键事实",
+              "text": "潜在最高关税为 100%。；大型企业大约有 120 天谈判窗口。；未签价格协议但在美建厂的公司适用约 20% 起步税率，并在四年内提高。；AP 报道还提到政府已与 17 家大药企达成价格协议，其中 13 家已签署。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "接下来要看主要跨国药企是否补充投资承诺、欧日韩与瑞士等现有药品关税框架是否进一步被细化，以及市场是否开始重新评估药品进口成本。"
+            },
+            {
+              "label": "来源",
+              "text": "[美联社](https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca)",
+              "links": [
+                {
+                  "label": "美联社",
+                  "url": "https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "title": "数码圈",
       "stories": [],
       "notes": [
-        "上一份成功简报仍可打开：[查看上一份简报](file:///Users/li/.codex/news_assistant/html/2026-04-03.html)"
+        "No high-value update today."
       ]
+    },
+    {
+      "title": "计算机 / 信息安全",
+      "stories": [
+        {
+          "title": "AWS 的 `aws-c-event-stream` 高危漏洞值得所有用到 SDK 的团队立刻盘点",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这类问题危险的地方不在“标题够不够炸”，而在它会藏在很多团队默认不主动检查的 SDK 深处。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "AWS 在 3 月 31 日发布安全公告，披露 `aws-c-event-stream` 解码组件存在栈缓冲区溢出漏洞 CVE-2026-5190，可影响多套 AWS SDK 与 IoT 客户端。"
+            },
+            {
+              "label": "背景",
+              "text": "事件流协议组件通常不是业务团队显式维护的代码，但一旦有问题，风险会随着下游 SDK 和客户端广泛扩散。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这会迫使团队把“供应链安全”从顶层依赖清单进一步下沉到协议实现与基础库层面，而不只是看应用框架版本。"
+            },
+            {
+              "label": "关键事实",
+              "text": "漏洞编号为 CVE-2026-5190。；核心受影响库是 `aws-c-event-stream` 0.6.0 之前版本。；受影响项目包括 aws-sdk-cpp、aws-sdk-swift 和多语言 AWS IoT Device SDK。；AWS 已给出对应修复版本，如 `aws-c-event-stream` 0.6.0。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "接下来几天重点看各语言生态是否快速完成下游升级，以及第三方托管服务会不会补充更细的受影响面与缓解建议。"
+            },
+            {
+              "label": "来源",
+              "text": "[AWS Security Bulletin 2026-011-AWS](https://aws.amazon.com/security/security-bulletins/2026-011-aws/)",
+              "links": [
+                {
+                  "label": "AWS Security Bulletin 2026-011-AWS",
+                  "url": "https://aws.amazon.com/security/security-bulletins/2026-011-aws/"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "GitHub 把安全与质量放到同一个入口，本质是在改团队分诊顺序",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这不是界面小改动，而是在推动“质量债”和“安全债”进入同一套治理视角。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "GitHub 于 4 月 2 日把仓库、组织和企业层级的 `Security` 标签改为 `Security & quality`，并把原来的 `Vulnerability alerts` 改为 `Findings`。"
+            },
+            {
+              "label": "背景",
+              "text": "很多团队以前把静态分析、依赖漏洞、密钥泄漏和代码质量拆开处理，导致安全和工程治理长期是两条分开的队列。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "当平台默认把两者收进一个入口后，企业会更自然地把修复优先级、代码健康和安全告警放进同一套决策流程。"
+            },
+            {
+              "label": "关键事实",
+              "text": "变更日期为 2026 年 4 月 2 日。；仓库侧栏中的 `Vulnerability alerts` 改名为 `Findings`。；新增 `Code quality` 区域显示启用状态。；GitHub 明确说明 URL 与 API endpoint 保持不变。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "后续要看 GitHub Code Quality 何时更全面 GA，以及组织是否会调整内部的“谁处理质量、谁处理安全”的责任边界。"
+            },
+            {
+              "label": "来源",
+              "text": "[GitHub Changelog](https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/)",
+              "links": [
+                {
+                  "label": "GitHub Changelog",
+                  "url": "https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "title": "未来 24-72 小时观察",
+      "stories": [
+        {
+          "title": "中东航道与大国表态是否会继续相互放大",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "只要霍尔木兹海峡的政治风险没有被压下去，外交表态、油价和运输预期就还会相互强化。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "围绕伊朗战争与海峡通行的外交动作仍在推进，多边方案和武力选项同时存在。"
+            },
+            {
+              "label": "背景",
+              "text": "航道风险从来不只是海运问题，而是会迅速传导到进口成本、市场风险偏好和各国外交排序。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "未来 2 到 3 天任何新的海峡提案、制裁表述或军事口径，都可能压过普通商业新闻成为市场核心变量。"
+            },
+            {
+              "label": "关键事实",
+              "text": "中方明确反对以武力方式打开海峡的提案。；美方目前对中方调停并不热心。；相关表态集中发生在 4 月 3 日到 4 月 4 日窗口。；是否形成可执行安排仍未明朗。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "重点看海峡提案是否表决、是否有更明确的停火或护航安排。"
+            },
+            {
+              "label": "来源",
+              "text": "[美联社](https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c)",
+              "links": [
+                {
+                  "label": "美联社",
+                  "url": "https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "药品关税会不会很快逼出更多企业投资与价格承诺",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "真正的后续信号不在行政命令文本，而在制药企业接下来一周内怎么回应。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "美国已把药品关税推进到可执行路径，企业进入谈判与表态窗口。"
+            },
+            {
+              "label": "背景",
+              "text": "药企一旦面对更清晰的关税与建厂绑定逻辑，就会被迫在成本、价格和本土化之间更公开地做权衡。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这会影响的不只是制药股，还有全球医药供应链布局和对美出口预期。"
+            },
+            {
+              "label": "关键事实",
+              "text": "大型企业大约有 120 天谈判窗口。；在美建厂与价格协议会直接影响税率高低。；欧盟、日本、韩国、瑞士和英国的药品框架也被一并放进比较视角。；这是贸易工具向药品链条的进一步深入。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "看主要药企、行业协会与贸易伙伴是否在未来几天内给出更清晰的回应。"
+            },
+            {
+              "label": "来源",
+              "text": "[美联社](https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca)",
+              "links": [
+                {
+                  "label": "美联社",
+                  "url": "https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "安全圈要盯的仍是“基础库漏洞”会不会继续外溢",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "今天没有新的大事故，并不代表可以放松，因为像 `aws-c-event-stream` 这种问题往往是在补丁窗口里逐步外溢。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "高危基础库漏洞已披露，企业端接下来进入盘点、升级和确认受影响面的阶段。"
+            },
+            {
+              "label": "背景",
+              "text": "最麻烦的安全问题往往不是单个应用爆炸，而是很多团队都“间接依赖了它”却没第一时间意识到。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这决定未来几天安全圈更值得关注的是资产盘点、依赖识别和修复覆盖率，而不是噪音化的漏洞转述。"
+            },
+            {
+              "label": "关键事实",
+              "text": "AWS 已给出明确受影响版本和修复版本。；GitHub 则在治理入口上把安全与质量合并处理。；这两条信号共同指向“治理前移”。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "看是否有更多厂商、托管服务或开源项目补发受影响说明与修复进度。"
+            },
+            {
+              "label": "来源",
+              "text": "[AWS Security Bulletin 2026-011-AWS](https://aws.amazon.com/security/security-bulletins/2026-011-aws/) [GitHub Changelog](https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/)",
+              "links": [
+                {
+                  "label": "AWS Security Bulletin 2026-011-AWS",
+                  "url": "https://aws.amazon.com/security/security-bulletins/2026-011-aws/"
+                },
+                {
+                  "label": "GitHub Changelog",
+                  "url": "https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "notes": []
     },
     {
       "title": "收尾总结",
       "stories": [],
       "notes": [
-        "这次确实是自动化做得不够稳，喵。我已经把“卡住就什么都没有”改成“卡住也会明确通知你”，后面至少不会再无声失败。"
+        "今天这版先把真正有硬信息的部分补齐给你，喵。先看国际和安全，再扫商业，游戏今天就按高信号收缩处理，这样比硬凑满版面更靠谱。"
       ]
     }
   ],
-  "closing": "这次确实是自动化做得不够稳，喵。我已经把“卡住就什么都没有”改成“卡住也会明确通知你”，后面至少不会再无声失败。"
+  "closing": "今天这版先把真正有硬信息的部分补齐给你，喵。先看国际和安全，再扫商业，游戏今天就按高信号收缩处理，这样比硬凑满版面更靠谱。"
 };
