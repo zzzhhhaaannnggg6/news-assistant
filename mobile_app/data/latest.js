@@ -1,18 +1,18 @@
 window.__DIGEST__ = {
-  "title": "2026-04-05 深度新闻简报",
-  "greeting": "早安喵，今天先看中东航道、药品关税和安全治理这三条主线。",
-  "overview": "过去 24 小时里，真正值得保留的高价值信息并不多，但仍能看出三条主线：一是中东局势仍把霍尔木兹海峡、能源运输与大国外交姿态捆在一起；二是美国药品关税政策从表态进一步推进到更可执行的框架，制药链条开始进入更高摩擦区间；三是信息安全和工程治理层面，更值得重视的是“边界前移”和“治理合并”这些结构性变化，而不是追逐低信噪比的零散漏洞标题。",
+  "title": "2026-04-06 深度新闻简报",
+  "greeting": "早安喵，今天先给你一版备用快报，正文基于过去 24 小时公开来源的高信号标题整理。",
+  "overview": "这是一版不依赖主模型服务的备用快报。它优先保证你在 8 点附近能看到当天版新闻，再由深度版在条件允许时继续覆盖更新。",
   "top3": [
-    "中国围绕伊朗战争与霍尔木兹海峡提出五点方案并反对以武力方式处理航道问题，说明中东议题仍在被大国当作全球治理话语权的竞技场。",
-    "特朗普政府把药品关税推进到最高 100% 的政策框架，意味着贸易工具正在更深地进入医药产业链。",
-    "对技术从业者来说，今天更值得记住的是 AWS 高危 SDK 漏洞和 GitHub 把“安全”与“质量”并列的治理变化，而不是零散安全噪音。"
+    "VCT Pacific Stage 1 Finals is headed to Thiskyhall Sala Convention Center!，这条线索当前来自 VALORANT Esports，值得继续跟进原文与后续补充。",
+    "Trump warns Iran he may strike 'every power plant' as deadline to reopen Hormuz nears，这条线索当前来自 Fox News，值得继续跟进原文与后续补充。",
+    "The AI-Enabled Society of the Future Must Be Breach Ready，这条线索当前来自 Security Boulevard，值得继续跟进原文与后续补充。"
   ],
   "sections": [
     {
       "title": "今日总览",
       "stories": [],
       "notes": [
-        "过去 24 小时里，真正值得保留的高价值信息并不多，但仍能看出三条主线：一是中东局势仍把霍尔木兹海峡、能源运输与大国外交姿态捆在一起；二是美国药品关税政策从表态进一步推进到更可执行的框架，制药链条开始进入更高摩擦区间；三是信息安全和工程治理层面，更值得重视的是“边界前移”和“治理合并”这些结构性变化，而不是追逐低信噪比的零散漏洞标题。"
+        "这是一版不依赖主模型服务的备用快报。它优先保证你在 8 点附近能看到当天版新闻，再由深度版在条件允许时继续覆盖更新。"
       ]
     },
     {
@@ -24,39 +24,39 @@ window.__DIGEST__ = {
       "title": "国际形势",
       "stories": [
         {
-          "title": "中东局势仍围绕霍尔木兹海峡和外交调停能力展开",
+          "title": "Trump warns Iran he may strike 'every power plant' as deadline to reopen Hormuz nears",
           "items": [
             {
               "label": "一句话判断",
-              "text": "中东今天最值得看的，不是单一战场消息，而是谁在争夺“谁有资格定义危机解决路径”。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "中国与巴基斯坦围绕伊朗战争提出五点方案，并公开反对联合国以“必要武力”方式确保霍尔木兹海峡通航；美方对中方调停努力的兴趣仍然有限。"
+              "text": "Fox News 在 2026-04-06 19:16 收录/发布了题为“Trump warns Iran he may strike 'every power plant' as deadline to reopen Hormuz nears”的更新。"
             },
             {
               "label": "背景",
-              "text": "霍尔木兹海峡问题一旦升级，影响的就不仅是中东安全，而是全球油价、海运保险和亚洲输入型经济体的市场预期。"
+              "text": "对国际板块，最重要的是把事实和各方说法分开，看清真正改变风险定价的是执行信号还是表态信号。"
             },
             {
               "label": "为什么重要",
-              "text": "这意味着外交表态本身也会转化为市场变量，大国之间对“航道该怎么恢复稳定”的分歧会直接放大风险溢价。"
+              "text": "这类动态会直接影响制裁、航运、能源、市场风险偏好和各国政策排序。"
             },
             {
               "label": "关键事实",
-              "text": "美联社报道提到中方推动了五点方案。；公开口径中反对以武力方式处理海峡通行问题。；报道同时提到中国仅约 13% 的石油进口依赖伊朗。；美方官员对中方斡旋努力并未给出积极背书。"
+              "text": "来源为 Fox News。；收录时间为 2026-04-06 19:16。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "重点看未来 24 到 72 小时里，联合国相关提案是否调整、海峡通行安排是否有新表述，以及各方是否从立场表达转向可执行安排。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[美联社](https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMiekFVX3lxTE0wOXZnd2Y0dlFwVEp0SmdYU0tDaWYzSlU1QTdWZkVpb0xEeTJ1Ni1SUFNXcEEtQzN4bzJhRTlzUG44Vld1djc3NHFUSXlocXZmYnk0dGZNT293eU9Qbm8xTHpaR0dUbUVJdUhJellGRkNoZENjck5XWFV30gF_QVVfeXFMTXpsc3FOMEM0WUZUdHpzX1BRWjg5emxueGVvaDhpOUpjTlVOR19nVmpwV0hnWVUxRkF2TUN4Xy11VHI0ZkZhTjk4WWNQRm9iZFBjQkgzMDdCRlZPV000eEtCZ3hpTFhPM2JVdHEtVE9Qa0F2THkxVWJLbDJjaWdIVQ?oc=5)",
               "links": [
                 {
-                  "label": "美联社",
-                  "url": "https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wOXZnd2Y0dlFwVEp0SmdYU0tDaWYzSlU1QTdWZkVpb0xEeTJ1Ni1SUFNXcEEtQzN4bzJhRTlzUG44Vld1djc3NHFUSXlocXZmYnk0dGZNT293eU9Qbm8xTHpaR0dUbUVJdUhJellGRkNoZENjck5XWFV30gF_QVVfeXFMTXpsc3FOMEM0WUZUdHpzX1BRWjg5emxueGVvaDhpOUpjTlVOR19nVmpwV0hnWVUxRkF2TUN4Xy11VHI0ZkZhTjk4WWNQRm9iZFBjQkgzMDdCRlZPV000eEtCZ3hpTFhPM2JVdHEtVE9Qa0F2THkxVWJLbDJjaWdIVQ?oc=5"
                 }
               ]
             }
@@ -64,43 +64,79 @@ window.__DIGEST__ = {
           "notes": []
         },
         {
-          "title": "台海安全议题今天仍应把注意力放在预算和执行，而不是抽象表态",
+          "title": "Iran accuses UN nuclear watchdog of inaction, warns of risk from attacks",
           "items": [
             {
               "label": "一句话判断",
-              "text": "比起口号，预算、交付和训练能否落地，才是台海风险中更有分析价值的硬变量。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "台湾军方此前公开警告预算延宕已影响武器采购、维护与训练节奏，这一现实约束在当前安全环境下仍然没有明显缓解。"
+              "text": "Reuters 在 2026-04-06 16:54 收录/发布了题为“Iran accuses UN nuclear watchdog of inaction, warns of risk from attacks”的更新。"
             },
             {
               "label": "背景",
-              "text": "地区安全讨论往往会被强硬叙事带偏，但真正决定能力的是采购能否执行、系统能否维护、训练能否持续。"
+              "text": "对国际板块，最重要的是把事实和各方说法分开，看清真正改变风险定价的是执行信号还是表态信号。"
             },
             {
               "label": "为什么重要",
-              "text": "如果预算与执行长期脱节，那么外界评估的将不是“决心”，而是实际威慑与应变能力的兑现度。"
+              "text": "这类动态会直接影响制裁、航运、能源、市场风险偏好和各国政策排序。"
             },
             {
               "label": "关键事实",
-              "text": "此前公开受影响金额约为新台币 780 亿元。；被点名受影响项目包括 HIMARS、Javelin 与维护补给。；2026 年台湾防务支出目标约为新台币 9495 亿元。；截至今天公开面仍没有看到预算争议被明确解决的信号。"
+              "text": "来源为 Reuters。；收录时间为 2026-04-06 16:54。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "继续看预算协商是否在未来几天出现实质松动，以及军方是否进一步公开更多受影响项目。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[台北时报（转引路透）](https://www.taipeitimes.com/News/taiwan/archives/2026/04/03/2003854950) [Taiwan News](https://www.taiwannews.com.tw/en/news/6333464)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1NxQmlyVjJONVVKTHo0anNEeFZEUUE2TWhWWGZBcmhPd043ZWZFbkRoM0FqTUFGLUszdEZpYWVFREFYTHkxdy14d1J0UGpybUZkVXl6bDlNNHhNWDV4Q2FIY1JNTnlqY1QzRHEzRVVhdjNMUFhQR0lvOTJwaFNoQUZGLUt1SUFReVlIQzc4RE1QdWllNEN0Skk1NlAyUXNfa0djRA?oc=5)",
               "links": [
                 {
-                  "label": "台北时报（转引路透）",
-                  "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/04/03/2003854950"
-                },
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1NxQmlyVjJONVVKTHo0anNEeFZEUUE2TWhWWGZBcmhPd043ZWZFbkRoM0FqTUFGLUszdEZpYWVFREFYTHkxdy14d1J0UGpybUZkVXl6bDlNNHhNWDV4Q2FIY1JNTnlqY1QzRHEzRVVhdjNMUFhQR0lvOTJwaFNoQUZGLUt1SUFReVlIQzc4RE1QdWllNEN0Skk1NlAyUXNfa0djRA?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Intelligence head of Iran's Revolutionary Guards killed in strike, media say",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "Reuters 在 2026-04-06 16:51 收录/发布了题为“Intelligence head of Iran's Revolutionary Guards killed in strike, media say”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "对国际板块，最重要的是把事实和各方说法分开，看清真正改变风险定价的是执行信号还是表态信号。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这类动态会直接影响制裁、航运、能源、市场风险偏好和各国政策排序。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 Reuters。；收录时间为 2026-04-06 16:51。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUh0Rmh5dnlRRURSd3dzR0ttZUVBSFYzVHZNQldILWJkR0lha3lZN0IzMWdocEJGM29FcVk0bXlYbFA0WGhkazlLM2tQMHgxRlNXaGFBcGFzbWluaEJYeU9tZkFrUXBuTkIwTVlHdERRSkc5MURUVEJxVEpiZ3l0YkhTT1VFQVVWSnlpUUxlU3ZKai1YRlRMQU92UERxZDFfZHhLU2MwR2QwbVZKdTI2TTJ0Z1QzNWlaTlBGNg?oc=5)",
+              "links": [
                 {
-                  "label": "Taiwan News",
-                  "url": "https://www.taiwannews.com.tw/en/news/6333464"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUh0Rmh5dnlRRURSd3dzR0ttZUVBSFYzVHZNQldILWJkR0lha3lZN0IzMWdocEJGM29FcVk0bXlYbFA0WGhkazlLM2tQMHgxRlNXaGFBcGFzbWluaEJYeU9tZkFrUXBuTkIwTVlHdERRSkc5MURUVEJxVEpiZ3l0YkhTT1VFQVVWSnlpUUxlU3ZKai1YRlRMQU92UERxZDFfZHhLU2MwR2QwbVZKdTI2TTJ0Z1QzNWlaTlBGNg?oc=5"
                 }
               ]
             }
@@ -114,51 +150,124 @@ window.__DIGEST__ = {
       "title": "游戏",
       "stories": [
         {
-          "title": "Valorant：区域赛样本继续比其他游戏子项更有信息密度",
+          "title": "VCT Pacific Stage 1 Finals is headed to Thiskyhall Sala Convention Center!",
           "items": [
             {
               "label": "一句话判断",
-              "text": "游戏板块今天依然是 Valorant 的区域赛最值得看，其他子项没有足够硬的新信号。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "VCT China 与 EMEA 的 Stage 1 首周样本继续积累，前一日的对局结果已经开始塑造赛区内强弱预期和后续对阵压力。"
+              "text": "VALORANT Esports 在 2026-04-06 19:37 收录/发布了题为“VCT Pacific Stage 1 Finals is headed to Thiskyhall Sala Convention Center!”的更新。"
             },
             {
               "label": "背景",
-              "text": "Stage 1 是通往 Masters London 的关键阶段，Bo3 的稳定样本比单次热度和讨论声量更有参考价值。"
+              "text": "游戏板块今天优先保留有明确赛果、官方赛程或官方公告支撑的内容，避免情绪化二手讨论。"
             },
             {
               "label": "为什么重要",
-              "text": "赛区头部队伍能否尽快建立稳定连胜，会直接影响国际赛名额竞争的叙事与心理预期。"
+              "text": "真正值得看的，是结果是否会改变赛区分层、版本适应和后续国际赛资格竞争。"
             },
             {
               "label": "关键事实",
-              "text": "JDG 以 2 比 1 战胜 FPX。；XLG 以 2 比 0 战胜 DRG。；FNATIC 以 2 比 1 战胜 Eternal Fire。；Team Liquid 以 2 比 0 战胜 Karmine Corp。"
+              "text": "来源为 VALORANT Esports。；收录时间为 2026-04-06 19:37。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "继续看本周末各赛区首周后续比赛，尤其是强队能否把首轮状态延续成更清晰的分层。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[VALORANT Esports](https://valorantesports.com/en-GB/leagues/vct_china%2Cvct_pacific%2Cvrl_northern_europe%2Cvct_emea) [VLR](https://www.vlr.gg/matches)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUtuSE5HdmhWdDVxbVBYcWJpQjNOa3VYYXZPbVhyT2RmNWoyQW1ROHlzSkt1dWFfbkhxYWsxUjl3TC1EZTdISzNxUEUzdTlYZGY0TUxYa0hhbXpHRkpKRXVLUnYzd3hYeFQwWUpmNVhZM1h5bk5MU2xIQk5vYy0wdFVQbGR0YlVvc1V5NEd5QnMxOEZfYVhabzBfZEJjWFlSRWdzakZFd2RocFNvdERleTRR?oc=5)",
               "links": [
                 {
-                  "label": "VALORANT Esports",
-                  "url": "https://valorantesports.com/en-GB/leagues/vct_china%2Cvct_pacific%2Cvrl_northern_europe%2Cvct_emea"
-                },
-                {
-                  "label": "VLR",
-                  "url": "https://www.vlr.gg/matches"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUtuSE5HdmhWdDVxbVBYcWJpQjNOa3VYYXZPbVhyT2RmNWoyQW1ROHlzSkt1dWFfbkhxYWsxUjl3TC1EZTdISzNxUEUzdTlYZGY0TUxYa0hhbXpHRkpKRXVLUnYzd3hYeFQwWUpmNVhZM1h5bk5MU2xIQk5vYy0wdFVQbGR0YlVvc1V5NEd5QnMxOEZfYVhabzBfZEJjWFlSRWdzakZFd2RocFNvdERleTRR?oc=5"
                 }
               ]
             }
           ],
-          "notes": [
-            "League of Legends esports：No high-value update today.",
-            "Honkai: Star Rail：No high-value update today."
-          ]
+          "notes": []
+        },
+        {
+          "title": "Honkai Star Rail 4.2 anniversary livestream date, time, and countdown",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "Sportskeeda 在 2026-04-06 19:10 收录/发布了题为“Honkai Star Rail 4.2 anniversary livestream date, time, and countdown”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "游戏板块今天优先保留有明确赛果、官方赛程或官方公告支撑的内容，避免情绪化二手讨论。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "真正值得看的，是结果是否会改变赛区分层、版本适应和后续国际赛资格竞争。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 Sportskeeda。；收录时间为 2026-04-06 19:10。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMipgFBVV95cUxNdm41aV81S1JBWFpYbFVaYjF3ekNuemhhRzB0cUhaVGlTODNBa1RtY2NxOTJOQ1N1b0JfNDFrRmhNUXBzRnZlZEtWQ211dkFOU1RuUUpIUHRSejBMYlJGQTRKUE5nb2VlT1k1WlVRaU5HSUFNazdmRXZpUW52OFBnQ3M0QS1PY3J5cWVUMWdwODg2Q1lSeHl4SHNrQ0lOQzVrR3VxU2hR?oc=5)",
+              "links": [
+                {
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdm41aV81S1JBWFpYbFVaYjF3ekNuemhhRzB0cUhaVGlTODNBa1RtY2NxOTJOQ1N1b0JfNDFrRmhNUXBzRnZlZEtWQ211dkFOU1RuUUpIUHRSejBMYlJGQTRKUE5nb2VlT1k1WlVRaU5HSUFNazdmRXZpUW52OFBnQ3M0QS1PY3J5cWVUMWdwODg2Q1lSeHl4SHNrQ0lOQzVrR3VxU2hR?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Why LPL Financial Shares Are Sliding After Earnings",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "TipRanks 在 2026-04-06 18:59 收录/发布了题为“Why LPL Financial Shares Are Sliding After Earnings”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "游戏板块今天优先保留有明确赛果、官方赛程或官方公告支撑的内容，避免情绪化二手讨论。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "真正值得看的，是结果是否会改变赛区分层、版本适应和后续国际赛资格竞争。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 TipRanks。；收录时间为 2026-04-06 18:59。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVV1dGVhc1ZRdUtuaFMyR1BFRDcwcllCQ2tyT09sdW5nS1BvLXdDMDhnMXdDODBBUWRDbkc0ckxhUXhiQ1BqQl9BVEY0SmpON0xHTWViRlp0aEVWWHlYbXloZi13WjdNSDk1XzBsZTFER2wyWmdNczktbnloZnNjSWtnT1ZiR2ZxbU4tbDkyNmJ3cVlq?oc=5)",
+              "links": [
+                {
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVV1dGVhc1ZRdUtuaFMyR1BFRDcwcllCQ2tyT09sdW5nS1BvLXdDMDhnMXdDODBBUWRDbkc0ckxhUXhiQ1BqQl9BVEY0SmpON0xHTWViRlp0aEVWWHlYbXloZi13WjdNSDk1XzBsZTFER2wyWmdNczktbnloZnNjSWtnT1ZiR2ZxbU4tbDkyNmJ3cVlq?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
         }
       ],
       "notes": []
@@ -167,39 +276,119 @@ window.__DIGEST__ = {
       "title": "商业洞见",
       "stories": [
         {
-          "title": "美国药品关税进入更可执行框架，制药链条正式进入更高摩擦区间",
+          "title": "Nomura names Infosys and Coforge among top IT picks as AI moves to ‘Execution Phase’",
           "items": [
             {
               "label": "一句话判断",
-              "text": "这不是普通表态，而是医药产业正在被更深地纳入贸易、价格与国家安全的同一套工具箱。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "特朗普签署行政命令，为未与政府达成协议的部分专利药设置最高 100% 关税路径；部分在美建厂且签署价格协议的企业可获得更低税率或零税率。"
+              "text": "The Financial Express 在 2026-04-06 18:14 收录/发布了题为“Nomura names Infosys and Coforge among top IT picks as AI moves to ‘Execution Phase’”的更新。"
             },
             {
               "label": "背景",
-              "text": "过去一年美国已经多次用关税去交换企业的价格与本土投资承诺，这次则把逻辑更明确地推进到药品与原料药链条。"
+              "text": "商业板块更看重能否改变竞争格局、利润结构、供应链位置和资本流向，而不是一般性口号。"
             },
             {
               "label": "为什么重要",
-              "text": "药品一旦进入高关税与供应链安全框架，影响的将不仅是股价，而是跨国药企的投资路线、定价策略和全球生产布局。"
+              "text": "只要牵涉到关税、产能、融资、合作与平台权力变化，这类事件就值得持续跟进。"
             },
             {
               "label": "关键事实",
-              "text": "潜在最高关税为 100%。；大型企业大约有 120 天谈判窗口。；未签价格协议但在美建厂的企业适用约 20% 起步税率，并会在四年内提高。；美联社提到已有 17 家大药企达成价格协议，其中 13 家已签署。"
+              "text": "来源为 The Financial Express。；收录时间为 2026-04-06 18:14。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "看主要跨国药企是否补充投资计划，及欧美日韩与瑞士等现有药品贸易框架是否会被进一步细化。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[美联社](https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWhxNnlRWXBXdXhDd2dmTFhaQ1hSOEtNNjMwRnVWNlgwYmpXd3ctWVRrSjVUeEpfUkNzZnBXLUU5c1l6eWZPQ2RtQ05lRzRpUy16c3B2eWpEWE05NnFOaGpOY3REWVF6YWlJUURoamZhcEUySDBNc1dST19HdWpkb0JHdjhvMzJBUEtVZFAwemMwM1Q4QUdHT0ltOXdIMTlKZGduYmN0V0MtMk9SdlNzUnd3R0ZlVkVMSkRHUUQzalhTNGFpNUVNSndRWdIB0gFBVV95cUxNQ1h2OHowT2tESUgxaDB3dktSQ3YxNjFlMEhpQXBITWhwdzRENV9MSEVDVXp2RlVQekpoSFBnNzJLSVdsOUY0U09kQXhZUElEbTk4R1dacm9rVTd3LVR4YU9DQkIwZnBLWi1qWkpZandiZklUZlpOeW50WDhKSXN1ZUJibzNjYzZrR0dFdTFQNUl3S0lKMC02Z0hMRDRRR3Nad2Fqdmw3OFUzRmxuVnAxa0FuUWdLWWphcHZpVWJmd3EwdjFYVmVnU195X2gyLVBqR3c?oc=5)",
               "links": [
                 {
-                  "label": "美联社",
-                  "url": "https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWhxNnlRWXBXdXhDd2dmTFhaQ1hSOEtNNjMwRnVWNlgwYmpXd3ctWVRrSjVUeEpfUkNzZnBXLUU5c1l6eWZPQ2RtQ05lRzRpUy16c3B2eWpEWE05NnFOaGpOY3REWVF6YWlJUURoamZhcEUySDBNc1dST19HdWpkb0JHdjhvMzJBUEtVZFAwemMwM1Q4QUdHT0ltOXdIMTlKZGduYmN0V0MtMk9SdlNzUnd3R0ZlVkVMSkRHUUQzalhTNGFpNUVNSndRWdIB0gFBVV95cUxNQ1h2OHowT2tESUgxaDB3dktSQ3YxNjFlMEhpQXBITWhwdzRENV9MSEVDVXp2RlVQekpoSFBnNzJLSVdsOUY0U09kQXhZUElEbTk4R1dacm9rVTd3LVR4YU9DQkIwZnBLWi1qWkpZandiZklUZlpOeW50WDhKSXN1ZUJibzNjYzZrR0dFdTFQNUl3S0lKMC02Z0hMRDRRR3Nad2Fqdmw3OFUzRmxuVnAxa0FuUWdLWWphcHZpVWJmd3EwdjFYVmVnU195X2gyLVBqR3c?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Exclusive | Gulf Funds Agree to Back Paramount’s $81 Billion Takeover of Warner",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "WSJ 在 2026-04-06 18:12 收录/发布了题为“Exclusive | Gulf Funds Agree to Back Paramount’s $81 Billion Takeover of Warner”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "商业板块更看重能否改变竞争格局、利润结构、供应链位置和资本流向，而不是一般性口号。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "只要牵涉到关税、产能、融资、合作与平台权力变化，这类事件就值得持续跟进。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 WSJ。；收录时间为 2026-04-06 18:12。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMitgFBVV95cUxObDVIaHk3UXYtZW5tSzE2YzdCSzIxalpZc3dKbmVOeFFQZEhXeDhJWENtVkcwb084OVRoQVEwMVJhVkhvT013TmVkSWt6THNFY0NacjdXcDNocnFGcG5haUwzeWZjQmxPSFVIYnRaZ0w1Tkc5TWdWSnpINE1kSEhHelVieEY5TWExakhQZDB4T2dDbC1RaEFCUk1kUDN2Z0FjVlFlcy1HbXplNWRESUMyU3VGczJVQQ?oc=5)",
+              "links": [
+                {
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObDVIaHk3UXYtZW5tSzE2YzdCSzIxalpZc3dKbmVOeFFQZEhXeDhJWENtVkcwb084OVRoQVEwMVJhVkhvT013TmVkSWt6THNFY0NacjdXcDNocnFGcG5haUwzeWZjQmxPSFVIYnRaZ0w1Tkc5TWdWSnpINE1kSEhHelVieEY5TWExakhQZDB4T2dDbC1RaEFCUk1kUDN2Z0FjVlFlcy1HbXplNWRESUMyU3VGczJVQQ?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "SignalPulse",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "The Tech Buzz 在 2026-04-06 18:05 收录/发布了题为“SignalPulse”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "商业板块更看重能否改变竞争格局、利润结构、供应链位置和资本流向，而不是一般性口号。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "只要牵涉到关税、产能、融资、合作与平台权力变化，这类事件就值得持续跟进。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 The Tech Buzz。；收录时间为 2026-04-06 18:05。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMimgFBVV95cUxPU0ZBWENfLW1SX0ZxSmxWY0tlLVFMM08zdWdMS1RxelFycDFFejJMQVdwNFJsREJTQjU4LTdMY2JDRkhTUzUyVVU1MEZ6UkFGTFBYeEtNRnREeEZFT1h5T3dta3BIWU1GZXQzWUVQb0V5a2FSa1dZZTJjSVA4a2szY3VDTDJRNWpNYVFiOUljdzlpX3llQ3NjN3d3?oc=5)",
+              "links": [
+                {
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU0ZBWENfLW1SX0ZxSmxWY0tlLVFMM08zdWdMS1RxelFycDFFejJMQVdwNFJsREJTQjU4LTdMY2JDRkhTUzUyVVU1MEZ6UkFGTFBYeEtNRnREeEZFT1h5T3dta3BIWU1GZXQzWUVQb0V5a2FSa1dZZTJjSVA4a2szY3VDTDJRNWpNYVFiOUljdzlpX3llQ3NjN3d3?oc=5"
                 }
               ]
             }
@@ -211,52 +400,121 @@ window.__DIGEST__ = {
     },
     {
       "title": "数码圈",
-      "stories": [],
-      "notes": [
-        "No high-value update today."
-      ]
-    },
-    {
-      "title": "计算机 / 信息安全",
       "stories": [
         {
-          "title": "AWS 高危 SDK 漏洞仍值得所有开发团队继续盘点",
+          "title": "NASA Shares Photos Shot on iPhone 17 Pro Max During Artemis II Mission to the Moon",
           "items": [
             {
               "label": "一句话判断",
-              "text": "今天安全圈没有新的单点爆炸事件，但基础库和治理流程的变化仍足够值得技术团队优先关注。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "AWS 安全公告披露 `aws-c-event-stream` 解码组件存在栈缓冲区溢出漏洞 CVE-2026-5190，可影响多套 AWS SDK 与 IoT 客户端；同时 GitHub 正在把“安全”和“质量”放进同一治理入口。"
+              "text": "macrumors.com 在 2026-04-06 09:39 收录/发布了题为“NASA Shares Photos Shot on iPhone 17 Pro Max During Artemis II Mission to the Moon”的更新。"
             },
             {
               "label": "背景",
-              "text": "这类问题往往不以“系统被打穿”的形式先出现，而是先体现在资产盘点、依赖识别和修复节奏的压力上。"
+              "text": "数码圈今天优先保留新品、平台策略或会影响用户迁移和硬件格局的信号，不追普通营销稿。"
             },
             {
               "label": "为什么重要",
-              "text": "真正长期影响团队效率的，往往不是某个漏洞标题，而是团队是不是能把依赖风险和工程质量放进同一套处置流程。"
+              "text": "这类动态最值得看的，是它会不会改变装机基础、价格带和平台控制力。"
             },
             {
               "label": "关键事实",
-              "text": "漏洞编号为 CVE-2026-5190。；受影响核心库是 `aws-c-event-stream` 0.6.0 之前版本。；受影响项目包括 aws-sdk-cpp、aws-sdk-swift 及多语言 AWS IoT Device SDK。；GitHub 在 4 月 2 日把 `Security` 标签改为 `Security & quality`。"
+              "text": "来源为 macrumors.com。；收录时间为 2026-04-06 09:39。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "接下来要看各语言生态是否继续完成下游升级，以及更多团队是否顺势调整内部“安全债/质量债”的分诊方式。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[AWS Security Bulletin 2026-011-AWS](https://aws.amazon.com/security/security-bulletins/2026-011-aws/) [GitHub Changelog](https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMijwFBVV95cUxPblAzMGlQUXBWQnItdmNxOFJVZElsNU9VVTMzRlJ5eWwzdGZhSXYyMnUydVZFV21fMGRkTWZNcGhUWGJTMnU1Q0gyV3o1QXljM1dNWVppaU9qQWFmVlFGbVd5YzNDUWRDUE1HNnBMVG1yNmhKN2xHTnE3eXBudFl0Mm8xZkZXN3h4ZURLaE1WQQ?oc=5)",
               "links": [
                 {
-                  "label": "AWS Security Bulletin 2026-011-AWS",
-                  "url": "https://aws.amazon.com/security/security-bulletins/2026-011-aws/"
-                },
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblAzMGlQUXBWQnItdmNxOFJVZElsNU9VVTMzRlJ5eWwzdGZhSXYyMnUydVZFV21fMGRkTWZNcGhUWGJTMnU1Q0gyV3o1QXljM1dNWVppaU9qQWFmVlFGbVd5YzNDUWRDUE1HNnBMVG1yNmhKN2xHTnE3eXBudFl0Mm8xZkZXN3h4ZURLaE1WQQ?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Dangerous \"NoVoice\" malware found in over 50 Play Store apps that were installed 2.3 million times",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "PhoneArena 在 2026-04-06 09:27 收录/发布了题为“Dangerous \"NoVoice\" malware found in over 50 Play Store apps that were installed 2.3 million times”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "数码圈今天优先保留新品、平台策略或会影响用户迁移和硬件格局的信号，不追普通营销稿。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这类动态最值得看的，是它会不会改变装机基础、价格带和平台控制力。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 PhoneArena。；收录时间为 2026-04-06 09:27。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVZ5Z2lubnVydk9Fdk5VcEhPRm0xajlIT1kyRVVmaU5rUlloNlIxZGZ3di1Ga2wzTWd5MEozTkdTdW1HZVJXLUdWbkt0MlpURnEtSTZKU0ExTUhJLXdqUWRkTjJwZWxLcjgzY05vckt1VGdpdVN1RC1fUWRRZmlwSWJlQWRaMDc3S1ZqM1ZYVnUxTExIZjNhX2VaQlVfTFpnOWx0UWZ3?oc=5)",
+              "links": [
                 {
-                  "label": "GitHub Changelog",
-                  "url": "https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVZ5Z2lubnVydk9Fdk5VcEhPRm0xajlIT1kyRVVmaU5rUlloNlIxZGZ3di1Ga2wzTWd5MEozTkdTdW1HZVJXLUdWbkt0MlpURnEtSTZKU0ExTUhJLXdqUWRkTjJwZWxLcjgzY05vckt1VGdpdVN1RC1fUWRRZmlwSWJlQWRaMDc3S1ZqM1ZYVnUxTExIZjNhX2VaQlVfTFpnOWx0UWZ3?oc=5"
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Vivo X300 Ultra vs Sony Alpha A7 full-frame camera: Who wins?",
+          "items": [
+            {
+              "label": "一句话判断",
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
+            },
+            {
+              "label": "发生了什么",
+              "text": "Notebookcheck 在 2026-04-06 01:12 收录/发布了题为“Vivo X300 Ultra vs Sony Alpha A7 full-frame camera: Who wins?”的更新。"
+            },
+            {
+              "label": "背景",
+              "text": "数码圈今天优先保留新品、平台策略或会影响用户迁移和硬件格局的信号，不追普通营销稿。"
+            },
+            {
+              "label": "为什么重要",
+              "text": "这类动态最值得看的，是它会不会改变装机基础、价格带和平台控制力。"
+            },
+            {
+              "label": "关键事实",
+              "text": "来源为 Notebookcheck。；收录时间为 2026-04-06 01:12。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
+            },
+            {
+              "label": "接下来观察",
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
+            },
+            {
+              "label": "来源",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ2pJZXR0VEUyQWQtVnZjTm5LR085MU9zVV9mbkF5U2hhNmVMcHotNEhFbkcxdmgwdi1PQnFDdTlISUllbVBLaGdFM1ppcVNNSFVfWDNhX3dmVmZRdy15UVdZOWxkeWluM3RnQk1OMi1vV2NPWGtWR1A2V1FRX1VxWEpaWTl0Wm9TMU1lMFY0UnBfVkJxb1pNUzd1TE42TnZZZDZ5MXhMNA?oc=5)",
+              "links": [
+                {
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ2pJZXR0VEUyQWQtVnZjTm5LR085MU9zVV9mbkF5U2hhNmVMcHotNEhFbkcxdmgwdi1PQnFDdTlISUllbVBLaGdFM1ppcVNNSFVfWDNhX3dmVmZRdy15UVdZOWxkeWluM3RnQk1OMi1vV2NPWGtWR1A2V1FRX1VxWEpaWTl0Wm9TMU1lMFY0UnBfVkJxb1pNUzd1TE42TnZZZDZ5MXhMNA?oc=5"
                 }
               ]
             }
@@ -267,42 +525,42 @@ window.__DIGEST__ = {
       "notes": []
     },
     {
-      "title": "未来 24-72 小时观察",
+      "title": "计算机 / 信息安全",
       "stories": [
         {
-          "title": "中东航道与大国表态是否会继续相互放大",
+          "title": "The AI-Enabled Society of the Future Must Be Breach Ready",
           "items": [
             {
               "label": "一句话判断",
-              "text": "只要霍尔木兹海峡风险没有被压下去，外交表态、油价和运输预期就还会继续相互强化。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "围绕伊朗战争与海峡通行的外交动作仍在推进，多边方案和武力选项同时存在。"
+              "text": "Security Boulevard 在 2026-04-06 18:57 收录/发布了题为“The AI-Enabled Society of the Future Must Be Breach Ready”的更新。"
             },
             {
               "label": "背景",
-              "text": "航道风险从来不是单纯的海运问题，而是会迅速传导到进口成本、市场风险偏好和各国外交排序。"
+              "text": "安全板块更应该盯的是高危漏洞、供应链、云端基础库和治理入口变化，而不是低质量漏洞搬运。"
             },
             {
               "label": "为什么重要",
-              "text": "未来 2 到 3 天，任何关于海峡通行、二级制裁或军事口径的新变化，都可能压过普通商业新闻成为市场主变量。"
+              "text": "这些信号通常会更快转化成团队修复压力、资产盘点成本和工程治理变化。"
             },
             {
               "label": "关键事实",
-              "text": "中方明确反对以武力方式处理海峡问题。；美方对中方调停并不热心。；相关表态集中发生在 4 月 4 日前后的窗口。；目前仍未出现清晰的可执行安排。"
+              "text": "来源为 Security Boulevard。；收录时间为 2026-04-06 18:57。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "重点看是否形成更具体的停火、护航或外交提案文本。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[美联社](https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzc4cFlLQm5HWURYd2YxNnJIdG9WNGt5TEx6ZkgzdV9vUjZFa1lCVFdybzhnanZQX012Qy00V2tqYXNic2h3QkQ2ZUR3cm5MYWZ3ZXpnYTBNUkgtZXhOMmYxSVlEMGN6Q3pNU0VMMlJFOXhScVZYcks3eE9EZ0tCTWZaOTNjZVJBZXJJSnptaUowMEVMY25IcU43emI?oc=5)",
               "links": [
                 {
-                  "label": "美联社",
-                  "url": "https://apnews.com/article/china-pakistan-iran-war-diplomacy-5032adf869db373558775db0e030f18c"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzc4cFlLQm5HWURYd2YxNnJIdG9WNGt5TEx6ZkgzdV9vUjZFa1lCVFdybzhnanZQX012Qy00V2tqYXNic2h3QkQ2ZUR3cm5MYWZ3ZXpnYTBNUkgtZXhOMmYxSVlEMGN6Q3pNU0VMMlJFOXhScVZYcks3eE9EZ0tCTWZaOTNjZVJBZXJJSnptaUowMEVMY25IcU43emI?oc=5"
                 }
               ]
             }
@@ -310,39 +568,39 @@ window.__DIGEST__ = {
           "notes": []
         },
         {
-          "title": "药品关税会不会很快逼出更多企业投资与价格承诺",
+          "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
           "items": [
             {
               "label": "一句话判断",
-              "text": "后续真正重要的不在关税文字，而在企业接下来一周内如何回应。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "药品关税已经被推进到可执行路径，企业进入实质性谈判与表态窗口。"
+              "text": "SecurityWeek 在 2026-04-06 17:38 收录/发布了题为“Fortinet Rushes Emergency Fixes for Exploited Zero-Day”的更新。"
             },
             {
               "label": "背景",
-              "text": "当关税、价格和本土投资被绑在一起时，制药企业会被迫更公开地权衡成本与市场策略。"
+              "text": "安全板块更应该盯的是高危漏洞、供应链、云端基础库和治理入口变化，而不是低质量漏洞搬运。"
             },
             {
               "label": "为什么重要",
-              "text": "这会影响医药股、供应链布局和对美出口预期，而不只是单一政策新闻。"
+              "text": "这些信号通常会更快转化成团队修复压力、资产盘点成本和工程治理变化。"
             },
             {
               "label": "关键事实",
-              "text": "大型企业大约有 120 天谈判窗口。；在美建厂与价格协议将直接影响税率高低。；药品贸易框架比较已扩展到欧盟、日本、韩国、瑞士和英国。"
+              "text": "来源为 SecurityWeek。；收录时间为 2026-04-06 17:38。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "继续看跨国药企、行业协会与贸易伙伴是否给出更清晰回应。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[美联社](https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMikgFBVV95cUxPSDFKby1sM2d2c1lwY0dkWldBaFFCSmd5RW80TmtORW1NN0xmclNvMmNldEFhZXRpalQwaUVKYkxHd1J6d2lkU05rZUJpdGN5bG84d281bjZKTklIcDg0RkRVRzE1eHhxUlRWai1yU3lmOEhibzlBRm44TVpyWDRsQTNGcTFBTkVRT19HNXpTZmdRUdIBkgFBVV95cUxPSDFKby1sM2d2c1lwY0dkWldBaFFCSmd5RW80TmtORW1NN0xmclNvMmNldEFhZXRpalQwaUVKYkxHd1J6d2lkU05rZUJpdGN5bG84d281bjZKTklIcDg0RkRVRzE1eHhxUlRWai1yU3lmOEhibzlBRm44TVpyWDRsQTNGcTFBTkVRT19HNXpTZmdRUQ?oc=5)",
               "links": [
                 {
-                  "label": "美联社",
-                  "url": "https://apnews.com/article/trump-tariffs-pharmaceutical-drugs-59ed7821faa5b52e2752c09edbbbf0ca"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSDFKby1sM2d2c1lwY0dkWldBaFFCSmd5RW80TmtORW1NN0xmclNvMmNldEFhZXRpalQwaUVKYkxHd1J6d2lkU05rZUJpdGN5bG84d281bjZKTklIcDg0RkRVRzE1eHhxUlRWai1yU3lmOEhibzlBRm44TVpyWDRsQTNGcTFBTkVRT19HNXpTZmdRUdIBkgFBVV95cUxPSDFKby1sM2d2c1lwY0dkWldBaFFCSmd5RW80TmtORW1NN0xmclNvMmNldEFhZXRpalQwaUVKYkxHd1J6d2lkU05rZUJpdGN5bG84d281bjZKTklIcDg0RkRVRzE1eHhxUlRWai1yU3lmOEhibzlBRm44TVpyWDRsQTNGcTFBTkVRT19HNXpTZmdRUQ?oc=5"
                 }
               ]
             }
@@ -350,43 +608,39 @@ window.__DIGEST__ = {
           "notes": []
         },
         {
-          "title": "安全圈更应该关注“修复覆盖率”，而不是继续追噪音",
+          "title": "Google Fixes Fourth Actively Exploited Chrome Zero-Day in a Single Month",
           "items": [
             {
               "label": "一句话判断",
-              "text": "接下来几天安全板块真正有价值的，不是谁又写了一篇耸动标题，而是谁把修复和治理真正落地了。"
+              "text": "这是一条值得继续跟进的当日高信号动态，当前先按标题级公开信息保守理解。"
             },
             {
               "label": "发生了什么",
-              "text": "高危基础库漏洞已公开，平台治理入口也在调整，接下来进入盘点、升级和修复覆盖率比拼阶段。"
+              "text": "Financial-News.co.uk 在 2026-04-06 14:06 收录/发布了题为“Google Fixes Fourth Actively Exploited Chrome Zero-Day in a Single Month”的更新。"
             },
             {
               "label": "背景",
-              "text": "安全圈最常见的失误不是“完全不知道”，而是知道了却没有形成稳定执行。"
+              "text": "安全板块更应该盯的是高危漏洞、供应链、云端基础库和治理入口变化，而不是低质量漏洞搬运。"
             },
             {
               "label": "为什么重要",
-              "text": "这决定未来两三天最值得跟踪的是企业和团队的动作，而不是重复阅读二手转述。"
+              "text": "这些信号通常会更快转化成团队修复压力、资产盘点成本和工程治理变化。"
             },
             {
               "label": "关键事实",
-              "text": "AWS 已给出明确受影响版本和修复版本。；GitHub 已经把安全和质量入口合并。；这两条线都指向治理前移和执行闭环。"
+              "text": "来源为 Financial-News.co.uk。；收录时间为 2026-04-06 14:06。；这是过去 24 小时内的候选高信号条目。；建议点击原始链接确认全文细节。"
             },
             {
               "label": "接下来观察",
-              "text": "看是否有更多厂商、托管平台和团队披露修复进度与受影响范围。"
+              "text": "关注该事件在未来 24 到 72 小时是否出现官方补充、执行细节、市场反应或新的对立表述。"
             },
             {
               "label": "来源",
-              "text": "[AWS Security Bulletin 2026-011-AWS](https://aws.amazon.com/security/security-bulletins/2026-011-aws/) [GitHub Changelog](https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/)",
+              "text": "[查看原文](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNGVLcFVONzhXTmpYWlBNSzU2UmVTVm0tOWUzblNOZkk2RW9IZHJLNWttbG9rZy1ENE9TNXhUYkYySHRzeEpxS21OaVA0amVtcEktNmlSUGxGaGZyV2RRTThPZlp2ZElxSmQ2d1p5TXJ4TEU1b3BHSnBCdEctZzZCSDk3VnFNTk1GWW95WGtINkdpeVA3OFpnMkt3ZW5hbzd2NTlsRWlhR2pvUQ?oc=5)",
               "links": [
                 {
-                  "label": "AWS Security Bulletin 2026-011-AWS",
-                  "url": "https://aws.amazon.com/security/security-bulletins/2026-011-aws/"
-                },
-                {
-                  "label": "GitHub Changelog",
-                  "url": "https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality/"
+                  "label": "查看原文",
+                  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNGVLcFVONzhXTmpYWlBNSzU2UmVTVm0tOWUzblNOZkk2RW9IZHJLNWttbG9rZy1ENE9TNXhUYkYySHRzeEpxS21OaVA0amVtcEktNmlSUGxGaGZyV2RRTThPZlp2ZElxSmQ2d1p5TXJ4TEU1b3BHSnBCdEctZzZCSDk3VnFNTk1GWW95WGtINkdpeVA3OFpnMkt3ZW5hbzd2NTlsRWlhR2pvUQ?oc=5"
                 }
               ]
             }
@@ -400,9 +654,9 @@ window.__DIGEST__ = {
       "title": "收尾总结",
       "stories": [],
       "notes": [
-        "今天这版我先把能站得住的硬信息补齐给你，喵。比起硬凑板块，更重要的是先把国际、商业和安全这三条真正有判断价值的线索留下来。"
+        "这版是备用快报，喵。它的目标不是替代深度版，而是在主生成链路失灵时，至少保证你今天还能看到一份当天可读版。"
       ]
     }
   ],
-  "closing": "今天这版我先把能站得住的硬信息补齐给你，喵。比起硬凑板块，更重要的是先把国际、商业和安全这三条真正有判断价值的线索留下来。"
+  "closing": "这版是备用快报，喵。它的目标不是替代深度版，而是在主生成链路失灵时，至少保证你今天还能看到一份当天可读版。"
 };
